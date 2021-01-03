@@ -1,5 +1,5 @@
-# BhaskaraCalc
- Resolução de Equações do 2º Grau
+<h1>BhaskaraCalc</h1>
+ <h2>Resolução de Equações do 2º Grau</h2>
 
 <p>Desenvolvido em HTML5/CSS3/JS.</p>
 
