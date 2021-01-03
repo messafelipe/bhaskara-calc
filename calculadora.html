@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+	<title>BKC - Calculadora</title>
+		<meta charset="UTF-8"/>
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+		<form id="form">
+			<fieldset class="info-field">
+				<p id="principal">Cal&shy;cu&shy;la&shy;do&shy;ra</p>
+				<p><label>A: </label><input name="valorA" id="a" type="number" autofocus="autofocus" /></p>
+				<p><label>B: </label><input name="valorB" id="b" type="number"/></p>
+				<p><label>C: </label><input name="valorC" id="c" type="number"/></p>		
+				
+				<a class="btn" href="#" onclick="calcular();"><p><strong>Cal&shy;cu&shy;lar</strong></p></a>
+			
+				<p><textarea id="resul" type="resul" rows="8" cols="50" placeholder="Resultado" disabled="disabled"></textarea></p>
+				
+				<a class="btn" href="#" onclick="limpar()"><p><strong>Lim&shy;par</strong></p></a>
+			</fieldset>
+			<a href="index.html" class="btn btn2"><p><strong>VOL&shy;TAR</strong></p></a>
+		</form>
+    </body>
+</html>

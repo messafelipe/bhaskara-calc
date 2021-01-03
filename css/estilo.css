@@ -1,0 +1,146 @@
+@charset "UTF - 8";
+/*Edições do corpo do programa - body*/
+body{
+	font-family: Arial, serif;
+	background-color: #4a6672;
+	font-size: 5vh;
+}
+/*Edições da tag form*/
+form,section{
+	background: rgba(255,255,255,0.7);/*cor branca com opacidade 0.7*/
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2vh;
+	border: 0.3vh solid #000;
+}
+
+/*Edições do fieldset dados-info*/
+/*#dados-field{
+	background-color: #fff;
+	text-align: center;
+}
+.principal{
+	font-size: 25pt;
+	font-weight: bold;
+	text-align:center;
+}*/
+input{
+	width: 35vw;
+	border: 0.3vh solid #000;
+}
+label, input {
+	font-size: 5.2vh;
+	text-align:center;
+}
+
+textarea{
+	width: 66vw;
+	height: 40vh;
+	font-size: 1.4em;
+	background-color: #fff;
+	resize: none;
+	color: #000;
+	text-align: center;	
+	border: 0.5px solid #000;
+	font-weight: bold;
+}
+
+/*Edições do fieldset info-filed*/
+.info-field {
+	background-color: #fff;
+	text-align: center;
+	font-size:3.5vh;
+	padding: 1vh 1vh 1vh 1vh;
+}
+
+.info-field p#principal{
+	font-size:6.2vh;
+	font-weight: bolder;
+	color: #4a6672;
+}
+
+/*Edições da imagem bhaskara e sua legenda*/
+figure{
+	text-align: center;
+}
+figcaption{
+	margin: 1vh;
+	font-size: 4vh; 
+}
+figcaption#legenda{
+	font-size: 16pt;
+}
+/*Edições do Botão Calcular*/
+.btn{
+	width: 100%;
+	background-color: #4a6672;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.btn p{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 100%;
+	color: #fff;
+}
+.btn p:hover{
+	text-decoration: none;
+	color: #c9d1d5;
+
+}
+.btn2{
+	margin-top: -5px;
+	margin-bottom: -20px;
+	display: block;
+	text-align: center;
+}
+.btn2 p{
+	font-size: 80%;
+	padding: 2vh;
+	color: #fff;
+}
+
+/*Edições do campo resultado - textarea*/
+.tabela {
+	text-align: center;
+}
+article h1{
+    padding: 2vh;
+    background-color: #4a6672;
+    text-align: center;
+    font-size: 100%;
+    color: #fff;	
+}
+article a{
+	color: #000;
+	text-transform: uppercase;	
+	text-decoration: none;
+}
+article a h1:hover{
+	color: #c9d1d5;
+}
+#icone{
+	width: 25vh;
+	text-decoration: none;
+}
+
+footer {
+	font-size: 3vh;
+	text-align: center;
+	
+}
+/*LINK da guia história e bhaskara*/
+a.fonte{
+	color: #000;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 1em;
+}
+
+/*Código para imagens responsivas*/
+.img-responsive{
+	max-width:100%;
+	height:auto;
+}
